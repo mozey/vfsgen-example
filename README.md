@@ -19,4 +19,7 @@ Run with Virtual File System
     # Read files from static/ui/vfs.go 
     go run main.go
     
+Modify `static/ui/data/docs/index.html` while running `dev.go` and `main.go`.
+The former will print the current contents of the file,
+the latter will print the file as it was when the VFS was generated 
     
